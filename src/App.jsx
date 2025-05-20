@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import CardSlider from './CardSlider'
 import HomePage from './HomePage'
+import Home from './Home'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <HomePage/>
+      <Home/>
     </>
   )
 }
